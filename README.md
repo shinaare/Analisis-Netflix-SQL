@@ -1,22 +1,21 @@
-# 🎬 Netflix Data Analysis using SQL
+# 🎬 Netflix Data Analysis & SQL Learning Journey
 
-Project ini adalah bagian dari perjalanan belajar saya di jurusan **Sains Data**. Di sini saya menganalisis dataset Netflix untuk memahami strategi konten mereka.
+Repository ini berisi kumpulan latihan SQL saya selama menempuh pendidikan **Sains Data**. Di sini saya membedah dataset Netflix dari Kaggle untuk mengasah logika analisis data.
 
-## 🛠️ Tools yang Digunakan
-* **Database:** SQLite
-* **Editor:** DBeaver & VS Code
-* **Version Control:** Git & GitHub
+## 📂 Struktur Folder
+* `data_raw/`: Berisi file dataset mentah (.csv).
+* `scripts_sql/`: Kumpulan query latihan harian.
 
-## 🔍 Analisis yang Saya Lakukan
-Dalam proyek ini, saya berhasil menjawab beberapa pertanyaan bisnis:
-1. **Tipe Konten:** Menghitung perbandingan antara *Movie* dan *TV Show*.
-2. **Top 5 Negara:** Mencari negara produsen konten terbanyak (dengan pembersihan data `NULL` dan *Empty String*).
-3. **Durasi Film:** Mengurutkan 10 film dengan durasi terlama.
+## 🚀 Materi yang Sudah Saya Kuasai
+1. **Filtering Tingkat Lanjut:** Menggunakan `LIKE` untuk pencarian pola, `BETWEEN` untuk rentang waktu, dan `IN` untuk kategori spesifik.
+2. **Data Cleaning & Transformation:**
+   * Membuang teks yang mengganggu dengan `REPLACE`.
+   * Mengubah tipe data teks menjadi angka dengan `CAST` agar bisa diurutkan secara matematis.
+3. **Agregasi Dasar:** Menggunakan `COUNT`, `GROUP BY`, dan `ORDER BY` untuk membuat laporan ringkas.
 
-## 💡 Konsep SQL yang Saya Terapkan
-* **Aggregasi:** `COUNT`, `GROUP BY`.
-* **Data Cleaning:** `IS NOT NULL`, `AND`, `!=`.
-* **Data Transformation:** Menggunakan `REPLACE` untuk membuang teks 'min' dan `CAST` untuk mengubahnya menjadi *Integer* agar bisa diurutkan secara matematis.
+## 🛠️ Tools
+* **Database:** SQLite (DBeaver)
+* **Version Control:** Git & GitHub (Mantra A-C-P: Add, Commit, Push)
 
 ---
-*Dibuat dengan semangat oleh mahasiswa semester 1 Sains Data.*
+*Terakhir diperbarui: 25 Maret 2026*
